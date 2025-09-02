@@ -10,6 +10,7 @@ body{
     align-items: center;
     background-size:100%;
     background-color: rgba(100, 148, 237, 0.487);
+    overflow: hidden;
     
     
 }
@@ -132,5 +133,6 @@ body{
     font-size: 10px;
     background-color: rgba(0, 0, 255, 0.203);
 }
+
 
 }
