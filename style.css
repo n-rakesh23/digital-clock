@@ -1,0 +1,136 @@
+*{
+    
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size:100%;
+    background-color: rgba(100, 148, 237, 0.487);
+    
+    
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+    padding: 40px;
+    /*border: 2px solid red;*/
+    background-color: rgba(0, 140, 255, 0.1);
+    display: felx;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.title{
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 42px;
+    margin-top: 2rem;
+}
+.clock{
+    width: 700px;
+    height: 400px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.value{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.201);
+    font-size: 250%;
+}
+.text{
+    width: 100%;
+    height: 30%;
+    
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    background-color: rgba(0, 0, 255, 0.203);
+}
+#ampm{
+    margin-top: 84% ;
+     background-color: rgba(0, 255, 51, 0.203);
+}
+@media (max-width:786px){
+    
+.container{
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    /*border: 2px solid red;*/
+    background-color: rgba(0, 140, 255, 0.1);
+    display: felx;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.title{
+    color: white;
+    letter-spacing: 1rem;
+    font-size: 21px;
+    margin-top: 1rem;
+}
+.clock{
+    width: 350px;
+    height: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.value{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0.201);
+    font-size: 100%;
+}
+.text{
+    width: 100%;
+    height: 30%;
+    
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    background-color: rgba(0, 0, 255, 0.203);
+}
+
+}
